@@ -1,1 +1,32 @@
+# LABORATORY REPORT
 
+## Performance Analysis of Type-1 and Type-2 Hypervisors
+
+**Course:** Cloud Computing / Computer Networks Laboratory  
+**Experiment No.:** 1  
+**Topic:** CPU Performance Comparison of Proxmox VE and VMware Workstation
+
+## 1. Objective
+
+The objective is to compare CPU performance between a **Type-1 hypervisor (Proxmox VE)** and a **Type-2 hypervisor (VMware Workstation Pro)** using Ubuntu VMs and the `sysbench` CPU benchmark.
+
+The experiment measures:
+- Execution time
+- Total events
+- Events per second
+- Minimum, average, and maximum latency
+- 95th percentile latency
+
+## 2. Hypervisor Classification
+
+### Type-1 Hypervisor – Proxmox VE
+
+A Type-1 hypervisor runs directly on physical hardware and manages virtual machines without a conventional host OS layer.
+
+**Architecture:**
+```text
+Ubuntu VM
+    ↓
+Proxmox VE / KVM
+    ↓
+Physical Hardware
