@@ -207,6 +207,3 @@ The test measures how many prime calculations can be completed in 10 seconds. Pr
 3. **Engineering Recommendation**: Use Type-1 hypervisors for production cloud infrastructure and Type-2 hypervisors for local development and testing environments.
 
 ---
-**Student Signature:** ____________________  
-**Date of Submission:** September 22, 2026  
-**Evaluation Grade:** ________ / ________
