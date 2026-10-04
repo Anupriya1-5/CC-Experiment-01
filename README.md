@@ -281,8 +281,7 @@ The following graph compares the CPU throughput of the Type-1 and Type-2 hypervi
 
 ### Graph Observation
 
-The graph shows that **Proxmox VE achieved higher CPU throughput (1689.43 events/sec)** compared with **VMware Workstation (1058.76 events/sec)** under the tested conditions.
----
+Proxmox VE achieved a CPU throughput of **1689.43 events/sec**, while VMware Workstation achieved **1058.76 events/sec**. Therefore, **Proxmox VE showed higher CPU throughput** than VMware Workstation under the tested conditions.
 
 # 7. Conclusion
 
